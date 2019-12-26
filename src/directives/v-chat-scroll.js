@@ -21,7 +21,7 @@ const vChatScroll = {
     let scrolled = false;
 
     el.addEventListener('scroll', e => {
-      scrolled = el.scrollTop + el.clientHeight + 1 < el.scrollHeight;
+      scrolled = el.scrollTop + el.clientHeight + 200 < el.scrollHeight;
     });
 
     (new MutationObserver(e => {
